@@ -1,0 +1,47 @@
+
+
+
+.btn-outline-primary{
+    border-radius: 20px;
+    padding:10px;
+    width: 100px;
+    background-color: white;
+    color:black;
+    --bs-btn-border-color:none;
+}
+
+.btn-primary{
+    border-radius: 20px;
+    padding:10px;
+    width: 100px;
+    background-color: #F48C06;
+    --bs-btn-border-color:none;
+}
+
+.border-bottom {
+    border-bottom: none;
+  }
+  .text-body-emphasis{
+    color:white;
+  }
+
+  .nav-link{
+    color:gray;
+  }
+
+#Home{
+    
+    background-color: #2CBDEB;
+
+}
+
+.text-body-emphasis{
+  color:white;
+}
+
+.display{
+  color:white;
+}
+
+
+
