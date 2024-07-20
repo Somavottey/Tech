@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+  }
+  h1 {
+    color: #007BFF;
+    text-align: center;
+  }
+  h2 {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .question {
+    margin-bottom: 20px;
+  }
+  .likert {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .likert label {
+    flex: 1;
+    text-align: center;
+  }
+  button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  #results {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  #results h2 {
+    margin-top: 0;
+  }
